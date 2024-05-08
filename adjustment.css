@@ -1,0 +1,592 @@
+.yellow-color {
+    color: rgb(252 211 77) !important;
+}
+
+.text-color-red {
+    color: rgb(225 29 72);
+}
+
+.text-color-green {
+    color: rgb(74 222 128);
+}
+
+.text-rose-700 {
+    color: rgb(190 18 60);
+}
+
+.text-amber-500 {
+    color: rgb(245 158 11);
+}
+
+
+
+
+.cairo {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+}
+
+
+  .splide__slide img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .splide__slide  {
+    margin-left: 1rem;
+  }
+
+
+
+  .splide__progress__bar {
+    height: 7px;
+    border-radius: 3px;
+   margin-top: 50px;
+    background: #1E3FA2;
+}
+
+
+
+.splide__pagination {
+    margin-bottom: 100px;
+}
+  .splide__pagination__page.is-active {
+    background: #1E3FA2;
+}
+
+
+.splide__toggle {
+    margin-top: 20px;
+    background: #1E3FA2;
+    color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 15px;
+    
+  }
+
+
+  #image-carousel {
+    height: fit-content;
+  }
+
+  .splide__arrow.splide__arrow--prev {
+    margin-left: 20px;
+  }
+
+button {
+    outline: none;
+}
+
+
+
+
+/* Styling The User accounts  */
+.users_acounts_container {
+  margin-top:110px;
+  width: 100%;
+  height: fit-content;
+}
+
+
+.users_acounts_container .heading {
+  font-size: 30px;
+  width: 100%;
+  background: #1E3FA2;
+  color: #FFFFFF;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+.my__hover:hover {
+  background: #FFFFFF;
+  color: #1E3FA2;
+}
+
+@media screen and (max-width:640px){
+  .users_acounts_container .heading {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:768px){
+  .users_acounts_container .heading {
+    font-size: 15px;
+  }
+}
+
+/* Styling The User accounts  */
+
+
+
+
+
+
+/* Styling The Profile Page  */
+
+
+
+.profile__page__container {
+  margin-top: 110px;
+ 
+
+}
+
+
+
+
+
+.card__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 354px;
+  background: #FFFFFF ;
+  border: 5px solid #1E3FA2;
+  border-right: none;
+  border-bottom:none ;
+  border-left:none ;
+  
+  border-radius: 3px;
+  padding-top: 10px;
+  position: relative;
+  transition: 1s ease-in-out;
+  font-family: inherit;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+
+}
+
+.card__profile:hover {
+  background: #1E3FA2;
+
+  transform: translateY(-10px);
+}
+
+.card__profile:hover.card__profile span {
+  color: #FFFFFF;
+}
+
+.card__profile span {
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 1.3em;
+}
+
+
+
+.card__profile .img {
+  width: 120px;
+  height: 120px;
+  background: #e8e8e8;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+.card__profile button {
+  padding: 8px 25px;
+  width: 80% ;
+  margin: auto;
+  display: block;
+  border-radius: 2px;
+  border: none;
+  /* margin-top: 65px; */
+  background: #e8e8e8;
+  color: #1E3FA2;
+  font-weight: 600;
+}
+
+
+
+
+
+.profile__info {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  background: #FFFFFF;
+  color: #1E3FA2;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+.profile__heading {
+  text-align: center;
+  color: #FFFFFF;
+  background: #1E3FA2;
+  font-size: 1.3rem;
+  font-family: inherit;
+  padding: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  
+}
+
+
+.info__container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
+
+}
+
+
+.profile__info input {
+  color: #665e5e97;
+}
+
+
+
+.info__container label {
+  margin-top: 20px;
+}
+
+
+@media (min-width: 640px) {
+
+}
+
+
+
+@media (max-width: 768px) {
+  .profile__info:not(:first-child) {
+    margin-top: 50px;
+  }
+
+
+.card__profile{
+  margin-top: 50px;
+}
+
+.profile__page__container {
+  margin-top: 80px;
+ 
+
+}
+
+}
+
+
+
+
+/* Styling The Profile Page  */
+
+
+
+/* The B V Table Page  */
+.table__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-x: scroll;
+margin-top: 100px;
+}
+
+
+@media screen and (max-width:640px){
+  .table__heading {
+    text-align: start !important;
+  }
+}
+@media screen and (max-width:768px){
+  .table__heading {
+    text-align: start !important;
+  }
+}
+
+
+
+.table  th {
+  color: #FFFFFF;
+  /* background: rgb(34 211 238); */
+  background: rgb(37 99 235);
+}
+.table  td {
+  /* background: rgb(34 211 238); */
+  background: rgb(37 99 235);
+  color: #FFFFFF;
+}
+
+.pag-th {
+  background: #FFFFFF !important;
+}
+
+
+
+
+
+/* The note card  */
+.note_card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 24px;
+  line-height: 1.6;
+  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+  margin-top: 80px;
+}
+
+.note_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 36px;
+  border-radius: 22px;
+  color: #ffffff;
+  overflow: hidden;
+  background: #0a3cff;
+  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.note_content::before {
+  position: absolute;
+  content: "";
+  top: -4%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  transform: translate(-50%);
+  background: #ced8ff;
+  z-index: -1;
+  transform-origin: bottom;
+
+  border-radius: inherit;
+  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.note_content::after {
+  position: absolute;
+  content: "";
+  top: -8%;
+  left: 50%;
+  width: 80%;
+  height: 80%;
+  transform: translate(-50%);
+  background: #e7ecff;
+  z-index: -2;
+  transform-origin: bottom;
+  border-radius: inherit;
+  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.note_content svg {
+  width: 48px;
+  height: 48px;
+}
+
+.note_content .para {
+  z-index: 1;
+  opacity: 1;
+  font-size: 18px;
+  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.note_content .link {
+  z-index: 1;
+  color: #fea000;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 16px;
+  transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.note_content .link:hover {
+  text-decoration: underline;
+}
+
+.note_card:hover {
+  transform: translate(0px, -16px);
+}
+
+.note_card:hover .note_content::before {
+  rotate: -3deg;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.note_card:hover .note_content::after {
+  rotate: 3deg;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.scroll__buttons {
+  align-items: end;
+  justify-content: center;
+  transform: translateY(110%);
+}
+
+/* The note card  */
+
+
+.toggle__buttons {
+  
+}
+#detials_right {
+
+  display: none;
+  padding: 10px;
+  background: #0a3cff;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 10px;
+  gap: 0.24rem;
+
+}
+
+#details_left{
+  padding: 10px;
+  background: #0a3cff;
+  color: #FFFFFF;
+  font-weight: 600;
+  border-radius: 10px;
+  display: flex;
+  gap: 0.24rem;
+}
+
+#D_left {
+  display: none;
+}
+
+/* The B V Table Page  */
+
+/* ==================================================================================================================================== */
+/* The Cashback Page  */
+.use_btn {
+  width: 80px;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #0a3cff;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width:640px) {
+  .table .text-xl {
+    font-size: 17px !important;
+    white-space: nowrap !important;
+  }
+}
+
+
+.add__btn {
+  padding: 10px;
+  background: #0a3cff;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+/* file upload button */
+input[type="file"]::file-selector-button {
+  border-radius: 4px;
+  padding: 0 16px;
+  height: 40px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #0a3cff;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+  border: none;
+  outline: none;
+  
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+  background-color: #FFFFFF;
+  color: #0a3cff;
+}
+
+/* file upload button active state */
+input[type="file"]::file-selector-button:active {
+  background-color: #e5e7eb;
+}
+
+
+#dopay__Method {
+  display: none;
+}
+
+#PayMethod {
+  display: none;
+  position: relative;
+}
+
+#Easy_Meza{
+  display: none;
+}
+#Mobile_method{
+  display: none;
+}
+
+.error__handling {
+  padding: 10px;
+  width: 100% !important;
+  background: hsl(346, 87%, 46%, 15%);
+  color: #da0f3f;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.icon__back{
+  margin-bottom: 100px !important;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: -70px;
+}
+
+/* The Cashback Page  */
+
+
+/* The Renewal Page  */
+#Point__Method {
+  display: none;
+}
+
+#BuyBuyingCourses {
+  display: none;
+}
+
+#goToCourses {
+  display: none;
+}
+
+select option {
+  width: inherit;
+}
+
+/* The Renewal Page  */
