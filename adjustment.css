@@ -1,10 +1,19 @@
+:root {
+  --color-red: rgb(225 29 72) !important;
+  --color-emerlad: rgb(52 211 153) !important;
+  --color-indigo: rgb(79 70 229) !important;
+  --color-teal: rgb(20 184 166) !important;
+  --color-rose: rgb(190 18 60) !important;
+  --color-amber: rgb(245 158 11) !important;
+}
+
 .yellow-color {
     color: rgb(252 211 77) !important;
 }
 
 .text-color-red {
-    color: rgb(225 29 72);
-}
+    color: rgb(225 29 72) !important;
+  }
 
 .text-color-green {
     color: rgb(74 222 128);
@@ -18,7 +27,17 @@
     color: rgb(245 158 11);
 }
 
+.text-teal {
+  color: rgb(20 184 166);
+}
 
+.text-indigo {
+  color: rgb(79 70 229);
+}
+
+.text-emerlad {
+  color: rgb(52 211 153);
+}
 
 
 .cairo {
@@ -446,9 +465,7 @@ margin-top: 100px;
 /* The note card  */
 
 
-.toggle__buttons {
-  
-}
+
 #detials_right {
 
   display: none;
@@ -590,3 +607,130 @@ select option {
 }
 
 /* The Renewal Page  */
+
+
+
+/* The Rank Page  */
+.Progress {
+  width: 100%;
+  padding: 20px;
+}
+
+
+.progress-container {
+  width: 100%;
+  background-color: #f0f0f03f;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+  transition: width 1.5s ease-in-out;
+}
+
+
+
+
+
+.Rank {
+  display: flex;
+  flex-direction: column;
+  /* isolation: isolate; */
+  position: relative;
+  /* width: 18rem; */
+  height: fit-content;
+  background: #0a3cff;
+  border-radius: 1rem;
+  overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  transition: 0.5s ease-in-out;
+  
+}
+
+.Rank.Rank_DISTRIBUTOR{
+background: var(--color-red);
+}
+.Rank.Rank_Active {
+  background: var(--color-indigo);
+}
+.Rank.Rank_Star {
+  background: rgb(59 130 246);
+}
+.Rank.Rank_Senior{
+  background: rgb(147 51 234);
+}
+.Rank.Rank_gray {
+  background: rgb(107 114 128);
+
+}
+.Rank.Rank_black {
+  background: rgb(17 24 39);
+
+}
+
+.Rank:after {
+  position: absolute;
+  content: "";
+  width: 0.25rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+    background: #FFFFFF;
+  transition: transform 300ms ease;
+  z-index: 4;
+}
+
+.acheivements{
+ margin-left: 40px;
+align-items: start;
+}
+.acheivements li {
+  list-style: disc;
+}
+
+
+
+
+.rank__title {
+  color: #ffffff;
+  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+
+
+.rank_body_teal {
+  color: #99999d;
+  background:var(--color-teal) ;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.Rank:hover {
+  transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Rank Page  */
